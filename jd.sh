@@ -125,11 +125,11 @@ function Combin_Sub() {
 function Combin_All() {
   export JD_COOKIE=$(Combin_Sub Cookie)
   ## 东东农场(jd_fruit.js)
-  export FRUITSHARECODES=$(Combin_Sub ForOtherFruit "")
+  export FRUITSHARECODES=$(Combin_Sub ForOtherFruit "47185c0af3b04054a6eba856fa5f974d@9e195230d84e405cb0b5d449555b2b6b@f418bcd262c14b8fb221afe628bcc2a6@3aada576c8e749a988b483c560e5d4ab@46f8cdd7d0894ccaa3a387858b9c8eb2@e508c2ca55df409081d85c91dd7f6865@c6952a52386c4c538bb4bbd69d14e085@ed9ca6042879426a8960f69d1dcfa089")
   ## 东东萌宠(jd_pet.js)
   export PETSHARECODES=$(Combin_Sub ForOtherPet "")
   ## 种豆得豆(jd_plantBean.js)
-  export PLANT_BEAN_SHARECODES=$(Combin_Sub ForOtherBean "")
+  export PLANT_BEAN_SHARECODES=$(Combin_Sub ForOtherBean "k3xa4ywmvsvt25g3lqvxty3gpu@g63d7uzzuvkuydttpylakakiljtat3wrbuys2li@mlrdw3aw26j3wkqjr7veoko46fzynhnhtirfona")
   ## 东东工厂(jd_jdfactory.js)
   export DDFACTORY_SHARECODES=$(Combin_Sub ForOtherJdFactory "")
   ## 京喜工厂(jd_dreamFactory.js)
@@ -306,7 +306,7 @@ function panelon() {
   if [ $? -ne 0 ]; then
     echo -e "开启失败，请截图并复制错误代码并提交Issues！\n"
   else
-    echo -e "确认看过WIKI，打开浏览器，地址为你的127.0.0.1:5678\n"
+    echo -e "确认看过WIKI，打开浏览器，地址为你的127.0.0.1:6789\n"
   fi
 }
 
@@ -321,7 +321,7 @@ function paneloff() {
 ## 重置密码
 function Reset_Pwd() {
   cp -f ${ShellDir}/sample/auth.json ${ConfigDir}/auth.json
-  echo -e "控制面板重置成功，用户名：admin，密码：admin5678\n"
+  echo -e "控制面板重置成功，用户名：admin，密码：admin6789\n"
 }
 
 ## 运行京东脚本
